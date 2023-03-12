@@ -12,9 +12,12 @@ print("Benim adim " + name + " " + surname + " Yaşim" + " " + str(age) + " ve m
 # - "Hello World" ifadesindeki w harfini W harfi ile değiştirin.
 s = "Hello World"
 print(s[0:6] +  "W" + s[-4:])
+
 # ya da .replace() metodu kullaniriz.
 print(s.replace("w", "W"))
 
 # - "abc" ifadesini yan yana 3 defa yazdirin.
 s = "abc"
 print(3*s)
+
+
